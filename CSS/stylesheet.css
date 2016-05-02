@@ -1,0 +1,65 @@
+
+body {
+	background-color: black;
+	background-image: url(file:///Users/istudent/Desktop/Project%202/Images/brick.jpg);
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+/*------ Divs FTW!!! ------*/
+
+#container {
+	height: 700px;
+	width: 100%;
+	background-color: red;
+	position: relative;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	opacity: 0.2;
+	background-color: black;
+}
+
+#nav {
+font-family: Arial;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#bodice {
+	height: 1100px;
+	width: 80%;
+	background-color: orange;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 200px;
+}
+
+#footer {
+	height: 100px;
+	width: 100%;
+	background-color: yellow;
+	position: absolute;
+	margin-top: 1300px;
+}
